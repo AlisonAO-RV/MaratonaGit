@@ -4,9 +4,9 @@
  * Ano:             2020
  * 
  * Problema encontrado em:
- * https://www.urionlinejudge.com.br/judge/pt/problems/view/1001
+ * https://www.urionlinejudge.com.br/judge/pt/problems/view/1003
  * 
- * Nivel: 4
+ * Nivel: 1
  */
 
 #include <bits/stdc++.h>
@@ -15,11 +15,13 @@ using namespace std;
 
 int main()
 {
-    int a, b, x;
+    int A, B, SOMA;
 
-    cin >> a >> b;
-    x = a + b;
-    cout << "X = " << x << "\n";
+    cin >> A >> B;
+
+    SOMA = A + B;
+
+    cout << "SOMA = " << SOMA << "\n";
 
     return 0;
 }

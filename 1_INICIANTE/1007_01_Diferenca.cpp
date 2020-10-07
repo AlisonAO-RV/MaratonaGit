@@ -4,9 +4,9 @@
  * Ano:             2020
  * 
  * Problema encontrado em:
- * https://www.urionlinejudge.com.br/judge/pt/problems/view/1001
+ * https://www.urionlinejudge.com.br/judge/pt/problems/view/1007
  * 
- * Nivel: 4
+ * Nivel: 1
  */
 
 #include <bits/stdc++.h>
@@ -15,11 +15,13 @@ using namespace std;
 
 int main()
 {
-    int a, b, x;
+    int A, B, C, D, diferenca;
 
-    cin >> a >> b;
-    x = a + b;
-    cout << "X = " << x << "\n";
+    cin >> A >> B >> C >> D;
+
+    diferenca = ((A * B) - (C * D));
+
+    cout << "DIFERENCA = " << diferenca << "\n";
 
     return 0;
 }

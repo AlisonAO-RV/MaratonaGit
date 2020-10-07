@@ -4,9 +4,9 @@
  * Ano:             2020
  * 
  * Problema encontrado em:
- * https://www.urionlinejudge.com.br/judge/pt/problems/view/1001
+ * https://www.urionlinejudge.com.br/judge/pt/problems/view/1016
  * 
- * Nivel: 4
+ * Nivel: 1
  */
 
 #include <bits/stdc++.h>
@@ -15,11 +15,14 @@ using namespace std;
 
 int main()
 {
-    int a, b, x;
+    int x = 0;
+    int min = 0;
 
-    cin >> a >> b;
-    x = a + b;
-    cout << "X = " << x << "\n";
+    cin >> x;
+
+    min = x * 2;
+
+    cout << min << " minutos\n";
 
     return 0;
 }
