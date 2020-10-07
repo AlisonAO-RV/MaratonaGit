@@ -1,4 +1,4 @@
-# Treinamento Maratona de Programação
+# Treinamento Maratona de Programação 2020
 
 Repositorio com opção de soluções dos problemas encontrado em https://www.urionlinejudge.com.br/judge/pt/categories
 
