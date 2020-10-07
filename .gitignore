@@ -1,1 +1,2 @@
-*.xx
+# Compilados C++ de teste
+.xx
