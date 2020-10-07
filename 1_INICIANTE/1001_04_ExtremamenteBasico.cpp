@@ -1,5 +1,5 @@
 /* Criado Por: Alison Alain de Oliveira
- * Estudante de Engenharia de Software
+ * Estudante: Engenharia de Software
  * Universidade: UNIRV - Rio Verde - GO
  * Ano: 2020
  * 
@@ -14,7 +14,7 @@ using namespace std;
 int main()
 {
     int a, b, x;
-    
+
     cin >> a >> b;
     x = a + b;
     cout << "X = " << x <<"\n";
